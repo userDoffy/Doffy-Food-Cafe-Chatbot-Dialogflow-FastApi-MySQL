@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Cafe</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Food Cafe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="../static/momo.jpeg" alt="Momo">
+                <div class="item-details">
+                    <h3>Momo</h3>
+                    <p>$6</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../static/chowmin.jpeg" alt="Chowmin">
+                <div class="item-details">
+                    <h3>Chowmin</h3>
+                    <p>$7</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../static/pizza.jpeg" alt="Pizza">
+                <div class="item-details">
+                    <h3>Pizza</h3>
+                    <p>$8</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../static/lassi.jpeg" alt="Lassi">
+                <div class="item-details">
+                    <h3>Lassi</h3>
+                    <p>$5</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../static/butterchicken.jpeg" alt="Butter Chicken">
+                <div class="item-details">
+                    <h3>Butter Chicken</h3>
+                    <p>$6</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../static/biryani.jpeg" alt="Biryani">
+                <div class="item-details">
+                    <h3>Biryani</h3>
+                    <p>$9</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../static/garlicnaan.jpeg" alt="Garlic Naan">
+                <div class="item-details">
+                    <h3>Garlic Naan</h3>
+                    <p>$4</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../static/keemanoodles.jpeg" alt="Keema Noodles">
+                <div class="item-details">
+                    <h3>Keema Noodles</h3>
+                    <p>$75</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../static/samosa.jpeg" alt="Samosa">
+                <div class="item-details">
+                    <h3>Samosa</h3>
+                    <p>$6</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="chatbot">
+        <iframe width="380" height="470" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/9315ce1d-c8fe-43e9-a5a3-b8f815054d9a"></iframe>
+    </div>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Food Cafe, your number one source for delicious food. We're dedicated to providing you the best of cuisine, with a focus on quality, customer service, and uniqueness.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: contact@foodcafe.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Food Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
