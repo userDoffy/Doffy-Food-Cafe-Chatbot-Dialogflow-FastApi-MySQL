@@ -1,4 +1,4 @@
-A Food Cafe chatbot using Dialogflow and fastapi backend with the functionalities such as:
+A Food Cafe Chatbot using Dialogflow and FastAPI backend and MYSQL database with the functionalities such as:
 
 <b>1)Create a order</b>
 ![image](https://github.com/userDoffy/Doffy-Food-Cafe-Chatbot-Dialogflow/assets/122683480/362fff39-d904-46a4-8cc0-75abe6961c8f)
